@@ -83,10 +83,13 @@ export default function AboutPage() {
              className="text-gray-300 font-sans tracking-wide leading-loose text-lg text-left drop-shadow"
           >
              <p className="mb-8">
-               Our mission is to permanently solve the EV charging reliability crisis. We recognized that the bottleneck wasn't hardware manufacturing, but the fragmented, reactive layer of operational maintenance that sits on top of it.
+               Our mission is to permanently solve the EV charging reliability crisis. We recognized early on that the true bottleneck to global electrification isn't manufacturing more hardware—it's the fragmented, reactive, and invisible layer of operational maintenance that sits on top of it.
+             </p>
+             <p className="mb-8">
+               We believe the transition to sustainable energy requires a completely new paradigm of infrastructure management. It requires moving from a legacy model of 'break-fix' to a modern model of 'continuous orchestration.'
              </p>
              <p>
-               By introducing intelligent orchestration and empowering a massive network of independent technicians, we are shifting the ecosystem from reactive repair to continuous, proactive uptime.
+               By introducing intelligent orchestration and empowering a massive, decentralized network of independent technicians, we aren't just repairing chargers. We are shifting the entire ecosystem to guarantee continuous, proactive uptime for the modern world.
              </p>
           </motion.div>
         </div>
