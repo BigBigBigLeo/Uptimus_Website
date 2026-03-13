@@ -86,7 +86,7 @@ export default function AboutPage() {
                Our mission is to permanently solve the EV charging reliability crisis. We recognized early on that the true bottleneck to global electrification isn't manufacturing more hardware—it's the fragmented, reactive, and invisible layer of operational maintenance that sits on top of it.
              </p>
              <p className="mb-8">
-               We believe the transition to sustainable energy requires a completely new paradigm of infrastructure management. It requires moving from a legacy model of human-bottlenecked 'break-fix' to a modern model of <strong className="text-white font-medium">autonomous, Agentic AI orchestration.</strong>
+               We believe the transition to sustainable energy requires a completely new paradigm of infrastructure management. It requires moving from a legacy model of human-bottlenecked 'break-fix' to a modern model of autonomous, Agentic AI orchestration.
              </p>
              <p>
                By deploying an intelligent swarm of AI agents that automatically ingest telemetry, diagnose hardware faults in milliseconds, and directly dispatch a massive, decentralized network of independent technicians, we aren't just repairing chargers. We are shifting the entire ecosystem to guarantee continuous, proactive uptime for the modern world.
