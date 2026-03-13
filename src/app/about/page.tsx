@@ -169,7 +169,7 @@ export default function AboutPage() {
                 Uptimus brings together AI-assisted maintenance, better field coordination, and technician enablement into one reliability system for EV charging infrastructure.
               </p>
               <p className="text-2xl md:text-3xl text-white font-display italic font-light drop-shadow-md">
-                "Our goal is not just to fix chargers faster. It is to help build a world where people can trust the infrastructure the future depends on."
+                &ldquo;Our goal is not just to fix chargers faster. It is to help build a world where people can trust the infrastructure the future depends on.&rdquo;
               </p>
               <div className="mt-12">
                 <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 hover:border-white px-10 py-4 text-lg" onClick={() => openModal('Partner')}>Partner with us</Button>
@@ -181,7 +181,7 @@ export default function AboutPage() {
 
       {/* Final CTA */}
       <section className="py-40 text-center relative max-w-4xl mx-auto px-6 z-10">
-        <h2 className="text-4xl md:text-6xl font-display font-bold mb-10 text-white drop-shadow-lg">Let's build the reliable grid together.</h2>
+        <h2 className="text-4xl md:text-6xl font-display font-bold mb-10 text-white drop-shadow-lg">Let&apos;s build the reliable grid together.</h2>
         <Button variant="primary" size="lg" className="px-12 py-5 text-lg" onClick={() => openModal('Contact Us')}>Contact Us</Button>
       </section>
 

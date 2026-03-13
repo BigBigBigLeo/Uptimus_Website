@@ -66,9 +66,9 @@ export default function ContactModal({ isOpen, onClose, defaultInquiryType = 'Co
       setTimeout(() => {
         onClose();
       }, 3000);
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('Submission error:', err);
-      setError(err.message || 'Something went wrong. Please try again.');
+      setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
     } finally {
       setIsSubmitting(false);
     }

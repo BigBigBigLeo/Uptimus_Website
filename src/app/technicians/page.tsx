@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Button from '@/components/ui/Button';
@@ -10,9 +10,6 @@ import ContactModal, { InquiryType } from '@/components/ui/ContactModal';
 import { useState } from 'react';
 
 export default function TechniciansPage() {
-  const { scrollY } = useScroll();
-  const y1 = useTransform(scrollY, [0, 1000], [0, 200]);
-
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [inquiryType, setInquiryType] = useState<InquiryType>('Apply');
 
