@@ -132,13 +132,7 @@ export default function AboutPage() {
                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center transition-transform duration-1000 group-hover:scale-110 filter grayscale contrast-125 opacity-40 mix-blend-luminosity" />
                  <div className="absolute inset-0 z-10 bg-gradient-to-t from-void via-void/50 to-transparent pointer-events-none" />
                  <div className="absolute inset-[2px] z-10 bg-gradient-to-br from-energy-cyan/10 to-transparent pointer-events-none mix-blend-overlay" />
-                 <div className="absolute bottom-12 left-12 pointer-events-none z-20">
-                    <h3 className="text-3xl font-display font-light text-white mb-3 tracking-wide drop-shadow-lg">The Team</h3>
-                    <p className="text-energy-cyan font-mono tracking-widest text-sm uppercase drop-shadow flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-energy-cyan animate-pulse"/>
-                      EV scaling &amp; AI Experts
-                    </p>
-                 </div>
+
               </div>
             </motion.div>
           </div>

@@ -103,13 +103,7 @@ export default function TechniciansPage() {
                  />
                  <div className="absolute inset-0 z-10 bg-gradient-to-t from-void via-void/50 to-transparent pointer-events-none" />
                  <div className="absolute inset-0 z-10 bg-gradient-to-br from-energy-emerald/20 to-transparent pointer-events-none mix-blend-overlay" />
-                 <div className="absolute bottom-6 left-6 right-6">
-                    <div className="flex items-center gap-2 mb-2">
-                       <span className="w-2 h-2 rounded-full bg-energy-emerald animate-pulse" />
-                       <span className="text-xs font-mono text-energy-emerald uppercase tracking-widest">Active Dispatch</span>
-                    </div>
-                    <p className="text-white font-display font-light text-xl">High-Voltage Maintenance</p>
-                 </div>
+
                </div>
             </motion.div>
           </motion.div>
